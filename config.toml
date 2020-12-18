@@ -1,0 +1,93 @@
+baseURL = "https://www.fugitivepigments.org/"
+languageCode = "en-us"
+title = "Fugitive Pigments | an unusual arts non-profit"
+theme = "timer-hugo"
+
+
+# Navbar Menus
+#[[menu.main]]
+#name    = "About"
+#url     = "about"
+#weight  = 2
+#[[menu.main]]
+#name    = "Service"
+#url     = "service"
+#weight  = 3
+#[[menu.main]]
+#name    = "Gallery"
+#url     = "gallery"
+#weight  = 4
+#[[menu.main]]
+#name    = "Blog"
+#url     = "blog"
+#weight  = 5
+#[[menu.main]]
+#name    = "Contact"
+#url     = "contact"
+#weight  = 6
+
+# Site Params
+[params]
+home = "Home"
+logo = "images/logo.png"
+dateFormat = "January 6 2006"
+# Meta data
+description = "Airspace Hugo theme"
+author = "Themefisher"
+# Google Analitycs
+googleAnalitycsID = "Your ID"
+# contact form action
+contactFormAction = "#" # contact form works with https://formspree.io
+
+# Banner Section
+[params.banner]
+enable  = true
+bgImage = "images/header1.jpg"
+heading = "We are Fugitive Pigments"
+description = "We provide diverse opportunities, outreach, education, and support for the interdisciplinary arts, maker spaces, storytellers, and creatives of all types."
+# button
+btn     = false
+btnText = "Download More"
+btnURL  = "https://themefisher.com/"
+
+# flip text
+[[params.banner.flipText]]
+title   = "Outreach"
+[[params.banner.flipText]]
+title   = "Education"
+[[params.banner.flipText]]
+title   = "Support"
+
+# Homepage About Section
+[params.about]
+enable  = true
+title   = "ABOUT FUGITIVE PIGMENTS"
+content = "Fugitive Pigments supports the value of community creativity and the importance of amplifying marginalized and underrepresented voices in the arts. We work to shine a spotlight on extraordinary works of all imaginable—and even unimaginable—kinds.<br><br>We serve to sustain, grow, and diversify existing cultural events and groups, and springboard new ones. We support our partner groups and events via fiscal sponsorship, mentorship, and allyship, and help make them as awesome as they want to be."
+image   = "images/flower.jpg"
+
+# Call to Action
+[params.cta]
+enable  = true
+title   = "Get in touch"
+content = "If you're interested in our mission or want to work with us, please get in touch."
+btnText = "Email us"
+btnURL  = "mailto:fugitivepigments@gmail.com"
+
+# Portfolio Section On Homepage
+[params.portfolio]
+enable  = false
+title   = "Latest Works"
+subtitle= "Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est. Aenean posuere tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus."
+
+# social icon
+#[[params.socialIcon]]
+#icon = "ion-social-facebook"
+#url = "#"
+
+[[params.socialIcon]]
+icon = "ion-social-instagram"
+url = "#"
+
+#[[params.socialIcon]]
+#icon = "ion-social-linkedin"
+#url = "#"
