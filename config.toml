@@ -3,7 +3,6 @@ languageCode = "en-us"
 title = "Fugitive Pigments | an unusual arts non-profit"
 theme = "timer-hugo"
 
-
 # Navbar Menus
 #[[menu.main]]
 #name    = "About"
